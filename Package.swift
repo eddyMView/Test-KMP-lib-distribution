@@ -14,5 +14,5 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TheViewSharedLib", 
-            path: "TheViewSharedLib.xcframework")
+            path: "shared.xcframework")
     ])
