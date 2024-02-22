@@ -1,4 +1,4 @@
-// swift-tools-version:5.6
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
@@ -14,5 +14,5 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TheViewSharedLib", 
-            path: "TheViewSharedLib.xcframework")
+            path: "shared.xcframework")
     ])
