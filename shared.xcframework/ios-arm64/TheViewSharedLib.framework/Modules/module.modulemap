@@ -1,8 +1,0 @@
-framework module TheViewSharedLib {
-    umbrella header "TheViewSharedLib.h"
-
-    export *
-    module * { export * }
-
-    use Foundation
-}
